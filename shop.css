@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contact-hero{
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to top, hsla(0, 0%, 0%, 0.85),hsla(0, 0%, 0%, 0.85)),url(./images/happy-young-afro-american-woman-carried-away-with-music-dances-carefree-with-arms-raised-keeps-eyes-closed-wears-stereo-headphones-ears-dressed-orange-jumper-isolated-white-wall_273609-49847.avif);
+}
+.contact-container{
+    margin: 0 auto;
+    width:60vw;
+    height: 40vh;
+}
+.contact-text{
+    margin:0 auto;
+    width: 50vh;
+    transform: translateY(200%);
+    text-align: center;
+}
+.contact-text h2{
+    color: white;
+    font-size: 30px;
+}
+.contact-text p{
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.features{
+    height: 190vh;
+    background-color: #f3cea9;
+    padding-top: 40px;
+}
+.feature-shop{
+    height: 90vh;
+    background-color: #f3cea9;
+}
+
+
+@media screen and (max-width:480px) {
+    .contact-container{
+        width: 60vw;
+    }
+    .contact-text{
+        width: 50vw;
+        transform: translateY(150%);
+    }
+    .feature-shop:last-child{
+        display: none;
+    }
+    .features{
+        display: block;
+        height: 200vh;
+    }
+    .feature-shop{
+        height: 200vh;
+    }
+}

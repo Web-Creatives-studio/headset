@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contact-hero{
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to top, hsla(0, 0%, 0%, 0.85),hsla(0, 0%, 0%, 0.85)),url(./images/happy-young-afro-american-woman-carried-away-with-music-dances-carefree-with-arms-raised-keeps-eyes-closed-wears-stereo-headphones-ears-dressed-orange-jumper-isolated-white-wall_273609-49847.avif);
+}
+.contact-container{
+    margin: 0 auto;
+    width:60vw;
+    height: 40vh;
+}
+.contact-text{
+    margin:0 auto;
+    width: 50vh;
+    transform: translateY(200%);
+    text-align: center;
+}
+.contact-text h2{
+    color: white;
+    font-size: 30px;
+}
+.contact-text p{
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.about-info{
+    background-color: #f3cea9;
+    height: 60vh;
+}
+.about-detial{
+    height: 60vh;
+    width: 90vw;
+    margin: 0 auto;
+    display: grid;
+    grid-row: 1;
+    grid-template-columns: 2fr 2fr;
+    gap: 2rem;
+}
+.img-about{
+    margin-top: 30px;
+    background-image: url(./Img/people-entertainment-hobby-concept-cheerful-young-african-american-woman-with-curly-hair-holds-modern-smartphone-listens-music-via-stereo-headphones-poses-against-vivid-orange-background_273609-46067.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 57vh;
+    z-index: 0;
+    
+}
+.about-text{
+    margin-top: 80px;
+}
+.about-text h2{
+    font-size: 30px;
+}
+.about-text p{
+    width: 40vw;
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 2rem;
+}
+@media screen and (max-width:480px) {
+    .contact-container{
+        width: 60vw;
+    }
+    .contact-text{
+        width: 50vw;
+        transform: translateY(150%);
+    }
+    .about-info{
+        height: 140vh;
+    }
+    .about-detial{
+        display: grid;
+        grid-template-rows: 2fr;
+        grid-template-columns: 2fr;
+        height: 135vh;
+    }
+    .about-text{
+        margin-top: 10px;
+    }
+    .about-text p{
+        width: 90vw;
+        line-height: 1.8rem;
+    }
+}
