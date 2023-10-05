@@ -37,15 +37,18 @@ header{
     font-weight: bold;
     color: black;
     text-align: center;
+    cursor: pointer;
 }
 .head i{
     color: #FA8B1D;
     text-align: center;
+    cursor: pointer;
 }
 .head p span{
     color: #FA8B1D;
     font-size: 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .head button{
